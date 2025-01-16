@@ -5,12 +5,34 @@ from io import StringIO
 from collections import Counter
 
 # Predefined list of roles and skills
+# Expanded list of roles and skills
 role_skills = {
     "Software Engineer": ["python", "java", "c++", "data structures", "algorithms", "software development", "object-oriented programming"],
     "Data Scientist": ["python", "machine learning", "data analysis", "statistics", "pandas", "numpy", "data visualization"],
     "Web Developer": ["html", "css", "javascript", "react", "angular", "web development", "node.js", "frontend", "backend"],
     "Product Manager": ["product management", "business strategy", "project management", "agile", "scrum", "leadership"],
     "UI/UX Designer": ["design", "user interface", "user experience", "wireframing", "figma", "adobe XD", "prototyping"],
+    "DevOps Engineer": ["ci/cd", "docker", "kubernetes", "linux", "aws", "azure", "terraform", "infrastructure", "monitoring"],
+    "Cybersecurity Analyst": ["security", "vulnerability assessment", "penetration testing", "network security", "firewalls", "incident response"],
+    "Digital Marketer": ["seo", "sem", "google analytics", "content marketing", "social media", "email marketing", "ppc"],
+    "HR Manager": ["recruitment", "talent management", "employee engagement", "performance management", "training", "onboarding"],
+    "Finance Analyst": ["financial modeling", "budgeting", "forecasting", "excel", "accounting", "investment analysis", "risk management"],
+    "Medical Professional": ["clinical care", "diagnosis", "treatment", "patient management", "medical terminology", "healthcare"],
+    "Mechanical Engineer": ["cad", "solidworks", "autocad", "mechanical design", "manufacturing", "thermodynamics", "engineering analysis"],
+    "Electrical Engineer": ["circuit design", "power systems", "electrical testing", "pcb design", "automation", "matlab", "embedded systems"],
+    "Content Writer": ["copywriting", "creative writing", "seo", "blogging", "editing", "proofreading", "content strategy"],
+    "Customer Service Representative": ["customer support", "problem-solving", "communication", "crm tools", "conflict resolution"],
+    "Sales Manager": ["sales strategy", "lead generation", "crm", "negotiation", "market research", "business development"],
+    "Graphic Designer": ["adobe photoshop", "adobe illustrator", "graphic design", "branding", "typography", "visual storytelling"],
+    "Game Developer": ["unity", "unreal engine", "game design", "c#", "game physics", "animation", "ai in games"],
+    "AI/ML Engineer": ["tensorflow", "keras", "deep learning", "nlp", "computer vision", "scikit-learn", "pytorch", "data modeling"],
+    "Civil Engineer": ["structural design", "construction management", "autocad", "surveying", "building codes", "project planning"],
+    "Data Engineer": ["big data", "hadoop", "spark", "sql", "etl", "data pipelines", "data lakes"],
+    "Economist": ["economic modeling", "forecasting", "data analysis", "macroeconomics", "policy analysis", "statistics"],
+    "Event Planner": ["event management", "budgeting", "vendor coordination", "public relations", "venue selection", "logistics"],
+    "Legal Advisor": ["legal research", "contracts", "litigation", "compliance", "corporate law", "intellectual property"],
+    "Teacher": ["curriculum planning", "classroom management", "student engagement", "lesson planning", "assessment"],
+    "Environmental Scientist": ["ecology", "environmental impact", "sustainability", "data collection", "research", "policy analysis"],
 }
 
 # Function to extract text from DOCX files
