@@ -1,0 +1,1 @@
+The ATS Resume Checker is a web app that helps job seekers optimize their resumes by calculating an ATS score. It analyzes the resume content, compares it with a job description, and provides feedback on missing keywords and skills. The app also suggests relevant job roles based on the skills identified in the resume.
